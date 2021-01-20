@@ -1,0 +1,14 @@
+{
+    "presets": [
+        "next/babel"
+    ],
+    "plugins": [
+        [
+            // Fix error styled-component at dev mode
+            "styled-components",
+            {
+                "ssr": true
+            }
+        ]
+    ]
+}
